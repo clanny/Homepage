@@ -1,0 +1,20 @@
+name: update-stats
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: '0 * * * *'
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: node update_stats.js
+        env:
+          REQ_1: ${{ secrets.REQ_1 }}
+          REQ_2: ${{ secrets.REQ_2 }}
+          REQ_3: ${{ secrets.REQ_3 }}
+          REQ_4: ${{ secrets.REQ_4 }}
