@@ -346,7 +346,7 @@ html {
 }
 
 body {
-    color: #6B7A90;
+    color: #91a1b8;
     font-size: 1rem
 }
 
@@ -540,7 +540,7 @@ i {
 }
 
 blockquote {
-    color: #6B7A90;
+    color: #91a1b8;
     font-style: italic;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -560,7 +560,7 @@ blockquote p {
 }
 
 address {
-    color: #6B7A90;
+    color: #91a1b8;
     border-width: 1px 0;
     border-style: solid;
     border-color: #E9EDF3;
@@ -1131,39 +1131,39 @@ label {
     border-style: solid;
     border-color: #E9EDF3;
     border-radius: 2px;
-    color: #6B7A90;
+    color: #91a1b8;
     max-width: 100%;
     width: 100%
 }
 
 .input::-webkit-input-placeholder,
 .textarea::-webkit-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:-ms-input-placeholder,
 .textarea:-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::placeholder,
 .textarea::placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:-ms-input-placeholder,
 .textarea:-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:hover,
@@ -1810,11 +1810,11 @@ main {
     line-height: 20px;
     letter-spacing: 0px;
     background: #182538;
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .site-footer a {
-    color: #6B7A90;
+    color: #91a1b8;
     text-decoration: none
 }
 
@@ -2513,7 +2513,7 @@ html {
 }
 
 body {
-    color: #6B7A90;
+    color: #91a1b8;
     font-size: 1rem
 }
 
@@ -2707,7 +2707,7 @@ i {
 }
 
 blockquote {
-    color: #6B7A90;
+    color: #91a1b8;
     font-style: italic;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -2727,7 +2727,7 @@ blockquote p {
 }
 
 address {
-    color: #6B7A90;
+    color: #91a1b8;
     border-width: 1px 0;
     border-style: solid;
     border-color: #E9EDF3;
@@ -3298,39 +3298,39 @@ label {
     border-style: solid;
     border-color: #E9EDF3;
     border-radius: 2px;
-    color: #6B7A90;
+    color: #91a1b8;
     max-width: 100%;
     width: 100%
 }
 
 .input::-webkit-input-placeholder,
 .textarea::-webkit-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:-ms-input-placeholder,
 .textarea:-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::placeholder,
 .textarea::placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:-ms-input-placeholder,
 .textarea:-ms-input-placeholder {
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .input:hover,
@@ -3977,11 +3977,11 @@ main {
     line-height: 20px;
     letter-spacing: 0px;
     background: #182538;
-    color: #6B7A90
+    color: #91a1b8
 }
 
 .site-footer a {
-    color: #6B7A90;
+    color: #91a1b8;
     text-decoration: none
 }
 
