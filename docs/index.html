@@ -70,14 +70,14 @@
           <div class="column">
             <div class="value niger-tejas" akhi="niger"></div>
             
-              <h1 class="counter"><i class="fas fa-satellite-dish icon-color-white"></i> <b id="count_servers">Servers: 100</b></h1>
+              <h1 class="counter"><i class="fas fa-satellite-dish icon-color-white"></i> <b id="count_servers">Servers: ...</b></h1>
               
           </div>
           <div class="pussygreen1 columns">
           <div class="column">
             <div class="value pussygreen" akhi="niger"></div>
             
-           <h1 class="counterr"><style   padding-left: 110%;> </style><i class="fas fa-users icon-color-white"></i> <b id="count_users">Users: 1</b></h1>
+           <h1 class="counterr"><style   padding-left: 110%;> </style><i class="fas fa-users icon-color-white"></i> <b id="count_users">Users: ...</b></h1>
             
            </div>
 
@@ -209,9 +209,9 @@
     <script src="js/main.min.js"></script>
     <script>
         fetch('https://raw.githubusercontent.com/clanny/Homepage/main/docs/data/count.json').then(res => res.json()).then(data => {
-            document.getElementById('count_server').innerHTML = "Servers: " + data.c;
+            document.getElementById('count_servers').innerHTML = "Servers: " + data.c;
         })
-        fetch('https://raw.githubusercontent.com/clanny/Homepage/main/docs/data/count.json').then(res => res.json()).then(data => {
+        fetch('https://raw.githubusercontent.com/clanny/Homepage/main/docs/data/count2.json').then(res => res.json()).then(data => {
             document.getElementById('count_users').innerHTML = "Users: " + data.UserCount;
         })
     </script>
