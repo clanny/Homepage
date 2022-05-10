@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: node update_stats.js
+      - run: node workflow_scripts/update_stats.js
         env:
           REQ_1: ${{ secrets.REQ_1 }}
           REQ_2: ${{ secrets.REQ_2 }}
