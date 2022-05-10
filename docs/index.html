@@ -70,14 +70,14 @@
           <div class="column">
             <div class="value niger-tejas" akhi="niger"></div>
             
-              <h1 class="counter"><i class="fas fa-satellite-dish icon-color-white"></i> <b>Servers: 100</b></h1>
+              <h1 class="counter"><i class="fas fa-satellite-dish icon-color-white"></i> <b id="count_servers">Servers: 100</b></h1>
               
           </div>
           <div class="pussygreen1 columns">
           <div class="column">
             <div class="value pussygreen" akhi="niger"></div>
             
-           <h1 class="counterr"><style   padding-left: 110%;> </style><i class="fas fa-users icon-color-white"></i> <b>Users: 1</b></h1>
+           <h1 class="counterr"><style   padding-left: 110%;> </style><i class="fas fa-users icon-color-white"></i> <b id="count_users">Users: 1</b></h1>
             
            </div>
 
@@ -208,7 +208,12 @@
     </div>
     <script src="js/main.min.js"></script>
     <script>
-        fetch('')
+        fetch('https://github.com/clanny/Homepage/raw/main/docs/data/count.json').then(res => res.json()).then(data => {
+            document.getElementById('count_server').innerHTML = "Servers: " + data.c;
+        })
+        fetch('https://github.com/clanny/Homepage/raw/main/docs/data/count2.json').then(res => res.json()).then(data => {
+            document.getElementById('count_users').innerHTML = "Users: " + data.UserCount;
+        })
     </script>
 </body>
 </html>
