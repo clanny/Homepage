@@ -208,10 +208,10 @@
     </div>
     <script src="js/main.min.js"></script>
     <script>
-        fetch('https://github.com/clanny/Homepage/raw/main/docs/data/count.json').then(res => res.json()).then(data => {
+        fetch('https://raw.githubusercontent.com/clanny/Homepage/main/docs/data/count.json').then(res => res.json()).then(data => {
             document.getElementById('count_server').innerHTML = "Servers: " + data.c;
         })
-        fetch('https://github.com/clanny/Homepage/raw/main/docs/data/count2.json').then(res => res.json()).then(data => {
+        fetch('https://raw.githubusercontent.com/clanny/Homepage/main/docs/data/count.json').then(res => res.json()).then(data => {
             document.getElementById('count_users').innerHTML = "Users: " + data.UserCount;
         })
     </script>
