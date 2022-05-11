@@ -23,7 +23,7 @@ jobs:
         with:
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
-          commit_message: Update stats
+          commit_message: '[skip ci] Update stats'
 
           # Optional. Local and remote branch name where commit is going to be pushed
           #  to. Defaults to the current branch.
